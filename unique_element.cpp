@@ -5,7 +5,7 @@ using namespace std;
 int findUnique(int *arr, int n) {
     // Write your code here
 
-    // Apptroach3: O(N)
+    // Apptroach1: O(N)
         int ans=0;
     for(int i=0; i<n ;i++){
         ans=ans^arr[i];
